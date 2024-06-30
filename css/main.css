@@ -16,7 +16,6 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,8 +45,10 @@ body {
   z-index: -1;
 }
 
+
 /* Cabeçalho */
 .header {
+  border-bottom-style: dashed;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -68,6 +69,7 @@ body {
 
 /* Menu de navegação */
 .nav-menu {
+  border-style: dashed;
   display: flex;
   gap: 20px;
 }
@@ -97,6 +99,7 @@ body {
 
 /* Conteúdo principal */
 .main-content {
+  border-style: dashed;
   display: flex;
   justify-content: center;
   align-items: center;
