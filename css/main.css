@@ -69,7 +69,6 @@ body {
 
 /* Menu de navegação */
 .nav-menu {
-  border-style: dashed;
   display: flex;
   gap: 20px;
 }
@@ -93,6 +92,7 @@ body {
 }
 
 .carolinas-img-header img {
+  margin-top: 400px;
   width: 400px;
   height: auto;
 }
